@@ -8,8 +8,8 @@
     "client-dev": "npm start --prefix ../\"React Aplikacja\"",
     "start-dev": "concurrently \"npm run server-dev\" \"npm run client-dev\""
   },
-  "author": "CodeWorkr",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
