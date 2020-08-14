@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server-dev": "cross-env NODE_ENV=prod nodemon server/index.js",
+    "server-dev": "nodemon server/index.js",
     "client-dev": "npm start --prefix ../\"React Aplikacja\"",
     "start-dev": "concurrently \"npm run server-dev\" \"npm run client-dev\""
   },
@@ -16,6 +16,7 @@
     "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-promise-router": "^3.0.3",
     "joi": "^14.3.1",
@@ -32,7 +33,7 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "faker": "^4.1.0",
-    "mocha": "^8.0.1",
+    "mocha": "^8.1.1",
     "nodemon": "^2.0.4",
     "nyc": "^15.1.0",
     "rewire": "^5.0.0",
