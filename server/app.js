@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'test') {
   });
 } else {
   mongoose.connect(
-    `mongodb://${process.env.LOGIN}:${process.env.PASSWORD}@localhost/APIAuthentication`,
+    `mongodb+srv://${process.env.LOGIN}:${process.env.PASSWORD}@gpwtrader.ok87b.mongodb.net/APIAuthentication?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
